@@ -1,5 +1,5 @@
-class User
-  attr_accessor :name, :email
+class User < ActiveRecord::Base
+  attr_accessible :name, :email
 
 
 

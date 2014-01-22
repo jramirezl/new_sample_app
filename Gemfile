@@ -5,7 +5,11 @@ gem 'rails', '4.0.2'
 
 group :development do
   gem 'sqlite3', '1.3.8'
+
 end
+
+gem 'protected_attributes'
+gem 'devise', '3.0.0.rc'
 
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'

@@ -1,3 +1,13 @@
+
+This is a Sample Application
+Juan Pablo Ramirez
+Studying
+
+This is the first application for the
+[*Ruby on Rails Tutorial*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com/).
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

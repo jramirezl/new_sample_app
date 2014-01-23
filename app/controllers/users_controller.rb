@@ -31,10 +31,12 @@ class UsersController < ApplicationController
   end
 
   def edit
+    @user = User.find(params[:id])
     @title = "Edit user"
   end
 
   def update
+    debugger
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
       flash[:success] = "Profile updated."

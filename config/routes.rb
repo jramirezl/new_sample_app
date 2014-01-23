@@ -1,6 +1,9 @@
 NewSampleApp::Application.routes.draw do
+  resources :microposts
+
   get "users/new"
   resources :users
+  resources :microposts
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
